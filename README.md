@@ -1,11 +1,11 @@
 
-# Phonebook          
+# Upload Image          
 
 Web Based Application using PHP.
 
 ## General Information
-- This is PHP project.
-- Store Phone Contact details online on server.
+- Upload image file, who resize and upload to database,
+- then save in Upload folder.
 
 ## Setup
 - XAMPP Server
@@ -14,25 +14,27 @@ Web Based Application using PHP.
 ### Run Locally
 - Paste the project in **htdocs** folder where xampp is installed.
 - open the XAMPP control panel and start *Apache* and *MySQL*.
-- Open the phpMyAdmin and create a database **"phonebook"**.
-- Import the *phonebook.sql* file present in the zip folder.
+- Open the phpMyAdmin and create a database **"upload_data"**.
+- Open the folder **"database"**.
+- Import the *upload_data.sql* file present in the zip folder.
 - Now navigate to your browser and type
 ```bash
    localhost/
-``` 
-nevigate to project path from htdocs in the address bar 
+```
+- Navigate to project path from htdocs in the address bar  
+- For example localhost/UploadImage/index.php
+
 
 
 ## Technologies Used
 - HTML/CSS
-- TailwindCSS
 - PHP
 - MySQL
 
 *******************************************************************************************************************************************
 
 
-CONTACT: sidhantkamble793@gmail.com
+Email: amourysio@gmail.com
 
 
 *******************************************************************************************************************************************
